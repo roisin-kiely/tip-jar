@@ -73,4 +73,9 @@ This project is deployed on **Vercel**. To deploy your own version, follow these
 
 3. **Fallback Mechanism**  
    - Include an alternative for users who do not have MetaMask installed, such as WalletCo
+  
+## Credits
+
+This project was created with the help of learning resources from [SuperHi](https://www.superhi.com/), which provided valuable tutorials on WordPress and web development.
+
 
