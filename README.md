@@ -8,6 +8,7 @@ The Ethereum Tip Jar is a project integrated into a portfolio website, allowing 
 
 - **Ethereum Integration:** Allows users to send tips using Ether directly from their wallets (e.g., MetaMask).
 - **Web3.js Usage:** Utilizes Web3.js to connect the user's browser to the Ethereum blockchain and facilitate transactions.
+- **Ganache for Local Blockchain Testing:** Simulated an Ethereum blockchain environment to test transactions during development.
 - **Responsive UI:** A clean and minimalistic form for entering and submitting tip amounts.
 
 ## How It Works
@@ -23,6 +24,7 @@ The project uses Web3.js to interact with the Ethereum blockchain. When a user e
 
 - **Frontend:** HTML, CSS
 - **Blockchain Integration:** Ethereum, MetaMask, Web3.js
+- **Testing and Development:** Ganache
 - **Development Tools:** VS Code, Git, GitHub
 - **Deployment:** Vercel
 
@@ -30,7 +32,7 @@ The project uses Web3.js to interact with the Ethereum blockchain. When a user e
 
 1. Clone the repository:
    ```bash
-   git clone []
+   git clone [https://github.com/roisin-kiely/tip-jar]
 
   # Deployment
 
