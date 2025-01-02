@@ -1,45 +1,33 @@
 # Ethereum Tip Jar for Portfolio Website
 
-A decentralized Ethereum-based tip jar integrated into a portfolio website. This project allows visitors to support the creator by sending tips in Ether directly via a smart contract, demonstrating the integration of blockchain technology into a real-world application.
+## Overview
 
----
+The Ethereum Tip Jar is a project integrated into a portfolio website, allowing visitors to send tips using Ethereum cryptocurrency. The project showcases a developer's ability to work with blockchain technology and create a practical application of decentralized transactions without implementing a custom smart contract.
 
-## 🌟 Features
-- **Decentralized Payments**: Enable Ether transactions securely via a smart contract.  
-- **User-Friendly Interface**: A clean and simple UI for tipping using MetaMask.  
-- **Smart Contract Functionality**: Handles tipping and ensures transparent transactions.  
-- **Live Deployment**: Deployed using Vercel for seamless accessibility.  
+## Features
 
----
+- **Ethereum Integration:** Allows users to send tips using Ether directly from their wallets (e.g., MetaMask).
+- **Web3.js Usage:** Utilizes Web3.js to connect the user's browser to the Ethereum blockchain and facilitate transactions.
+- **Responsive UI:** A clean and minimalistic form for entering and submitting tip amounts.
 
-## 🚀 Technologies Used
-- **Frontend**: HTML, CSS  
-- **Blockchain Tools**: Ethereum, MetaMask, Truffle, Ganache  
-- **Development Tools**: Visual Studio Code, Git, GitHub  
-- **Deployment**: Vercel  
+## How It Works
 
----
+The project uses Web3.js to interact with the Ethereum blockchain. When a user enters a tip amount and submits the form:
 
-## 📷 Screenshots
-### Tip Jar UI
-![Tip Jar UI](path-to-screenshot.png)](https://tip-jar-zeta.vercel.app/)
+1. The app requests access to the user's Ethereum wallet through MetaMask.
+2. The user approves the transaction, sending the specified amount of Ether to the developer's wallet address.
 
----
+**Note:** No smart contract is used in this implementation. All transactions are directly handled through the Ethereum network.
 
-## 🎯 Getting Started
+## Technologies Used
 
-Follow these steps to set up and run the project locally:
+- **Frontend:** HTML, CSS
+- **Blockchain Integration:** Ethereum, MetaMask, Web3.js
+- **Development Tools:** VS Code, Git, GitHub
+- **Deployment:** Vercel
 
-### Prerequisites
-- **Node.js**: Install from [Node.js](https://nodejs.org).  
-- **MetaMask**: Install the browser extension from [MetaMask](https://metamask.io).  
-- **Truffle**: Install globally using `npm install -g truffle`.  
-- **Ganache**: Download from [Ganache](https://trufflesuite.com/ganache/).
+## Project Setup
 
----
-
-### Setup Instructions
-1. **Clone the Repository**:  
+1. Clone the repository:
    ```bash
-   git clone https://github.com/roisin-kiely/tip-jar.git
-   cd tip-jar
+   git clone []
